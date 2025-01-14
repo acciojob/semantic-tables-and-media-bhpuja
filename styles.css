@@ -1,2 +1,56 @@
 
 /* Your CSS Code here. */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+thead {
+    background-color: #f4f4f4;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin: 20px 0;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+video, audio {
+    display: block;
+    margin-top: 10px;
+    max-width: 100%;
+}

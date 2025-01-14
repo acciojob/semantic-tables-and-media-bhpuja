@@ -3,83 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Semantic Tables and Media</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 20px;
-        }
-
-        table, th, td {
-            border: 1px solid #ccc;
-        }
-
-        th, td {
-            padding: 10px;
-            text-align: left;
-        }
-
-        thead {
-            background-color: #f4f4f4;
-        }
-
-        h2 {
-            margin: 20px 0;
-        }
-    </style>
+    <title>Semantic Table and Media List</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Semantic Table -->
-    <table>
-        <caption>Roll Numbers and Names</caption>
-        <thead>
-            <tr>
-                <th>Roll Number</th>
-                <th>Name</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>John Doe</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Jane Smith</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Emily Johnson</td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="container">
+        <!-- Semantic Table -->
+        <table>
+            <caption>Roll Numbers and Names</caption>
+            <thead>
+                <tr>
+                    <th>Roll Number</th>
+                    <th>Name</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+                <!-- Rows will be added dynamically -->
+            </tbody>
+        </table>
 
-    <!-- Heading -->
-    <h2>List of Medias</h2>
+        <!-- Heading -->
+        <h2>List of Medias</h2>
 
-    <!-- Ordered List -->
-    <ol>
-        <li>
-            <img src="https://picsum.photos/id/123/200/300" alt="Random Image from Picsum">
-        </li>
-        <li>
-            <video width="400" controls>
-                <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-        </li>
-        <li>
-            <audio controls>
-                <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
-                Your browser does not support the audio element.
-            </audio>
-        </li>
-    </ol>
+        <!-- Ordered List -->
+        <ol>
+            <li>
+                <img src="https://picsum.photos/id/123/200/300" alt="Random Image from Picsum">
+            </li>
+            <li>
+                <video width="400" controls>
+                    <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </li>
+            <li>
+                <audio controls>
+                    <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
+                    Your browser does not support the audio element.
+                </audio>
+            </li>
+        </ol>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
+
